@@ -25,7 +25,7 @@ DefinitionBlock ("", "SSDT", 2, "ACDT", "MCHCSBUS", 0x00000000)
         }
     }
 
-    Device (_SB.PCI0.SBUS.BUS0)
+    Device (_SB.PCI0.D02A.BUS0)
     {
         Name (_CID, "smbus")  // _CID: Compatible ID
         Name (_ADR, Zero)  // _ADR: Address
